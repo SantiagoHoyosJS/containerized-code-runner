@@ -6,5 +6,5 @@ def fibonacci(n)
     end
   end
   
-  fibonacci(100)
+  fibonacci(50)
   

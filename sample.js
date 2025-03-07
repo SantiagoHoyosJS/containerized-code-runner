@@ -6,4 +6,4 @@ function fibonacci(n) {
     }
 }
 
-fibonacci(100);
+fibonacci(50);

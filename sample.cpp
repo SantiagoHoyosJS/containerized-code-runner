@@ -11,6 +11,6 @@ void fibonacci(int n) {
 }
 
 int main() {
-    fibonacci(100);
+    fibonacci(50);
     return 0;
 }
