@@ -23,7 +23,7 @@ Para ejecutar esta aplicación, necesitas tener instalado:
 ## Configuración y Ejecución
 - Para ejecutar el programa por primera vez debe realizar los siguientes comandos:
 ```bash
-git clone https://github.com/SantiagoHoyosJS/containerized-code-runner.git && cd containerized-code-runner
+git clone https://github.com/SantiagoHoyosJS/containerized-code-runner.git .
 chmod +x script.sh
 ./script.sh 
 ``` 
