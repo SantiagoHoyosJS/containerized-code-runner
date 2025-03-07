@@ -70,7 +70,7 @@ Se incluyen archivos de prueba en cada lenguaje, los cuales calculan los **50 pr
     }
     ```
 
-## Miembros  
+## Miembros del grupo  
 
 - **Santiago Hoyos**  
 - **Jesús Cabrera**  
