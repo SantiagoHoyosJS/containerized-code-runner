@@ -17,38 +17,39 @@ Este proyecto consiste en el desarrollo de una aplicación que permite ejecutar 
 - Ruby (.rb)
 
 ## Requisitos
-Para ejecutar esta aplicación, necesitas tener instalado:
+Antes de ejecutar la aplicación, asegúrate de tener instalado:
 - Docker
 
 ## Configuración y Ejecución
-- Para ejecutar el programa por primera vez debe realizar los siguientes comandos:
+- Para ejecutar el programa por primera vez, usa los siguientes comandos:
 ```bash
 git clone https://github.com/SantiagoHoyosJS/containerized-code-runner.git
 cd containerized-code-runner && chmod +x script.sh  
 ./script.sh 
 ```
-- Para volverlo a ejecutar solo debe usar el comando:
+- Para volver a ejecutar la aplicación, simplemente usa:
 ```bash
 ./script.sh 
 ``` 
 
 ## Ejemplo de Uso
-### Entrada
+
 ```bash
-Ingrese el nombre del archivo a ejecutar: sample.py
-```
-### Salida Esperada
-```bash
-Salida del programa:
-0 1 1 2 3 5 8 ... (hasta 100 valores de Fibonacci)
-Tiempo de ejecución: 5 ms
+$ ./script.sh
+Ingrese la ruta del archivo de código fuente: sample.py
+Preparando entorno...
+Ejecutando el programa en un contenedor Docker...
+--- Salida del programa ---
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 10946 17711 28657 46368 75025 121393 196418 317811 514229 832040 1346269 2178309 3524578 5702887 9227465 14930352 24157817 39088169 63245986 102334155 165580141 267914296 433494437 701408733 1134903170 1836311903 2971215073 4807526976 7778742049 Tiempo de ejecución: 40.926 ms
+--------------------------------
 ```
 
 ## Archivos de Prueba
-Se incluyen archivos de prueba en cada lenguaje en la carpeta `samples/`:
+Se incluyen archivos de prueba en cada lenguaje:
 - `sample.py`
 - `sample.java`
 - `sample.cpp`
+- `sample.cc`
 - `sample.js`
 - `sample.rb`
 
