@@ -69,6 +69,14 @@ Se incluyen archivos de prueba en cada lenguaje, los cuales calculan los 50 prim
         }
     }
     ```
+- Si existe un error en el código, el programa mostrará lo siguiente:  
+   ```bash
+    Ingrese la ruta del archivo de código fuente: test_error.py
+    Preparando entorno...
+    Ejecutando el programa en un contenedor Docker...
+    El programa dentro del contenedor falló con código de salida 1.
+    ```
+    Para probar este caso se puede utilizar el archivo de prueba **test_error.py.**
 
 ## Miembros del grupo  
 
