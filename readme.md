@@ -72,7 +72,7 @@ Se incluyen archivos de prueba en cada lenguaje, los cuales calculan los **50 pr
 
 ## Miembros  
 
-- **[SantiaGO Hoyos]**  
-- **[Jesús Cabrera]**  
+- **Santiago Hoyos**  
+- **Jesús Cabrera**  
 
 
