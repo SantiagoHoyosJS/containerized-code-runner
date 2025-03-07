@@ -47,7 +47,7 @@ Tiempo de ejecución: 40.926 ms
 
 ## Archivos de Prueba  
 
-Se incluyen archivos de prueba en cada lenguaje, los cuales calculan los **50 primeros términos de la serie de Fibonacci**:  
+Se incluyen archivos de prueba en cada lenguaje, los cuales calculan los 50 primeros términos de la serie de Fibonacci:  
 
 - `sample.py`  
 - `sample.java`  
@@ -72,7 +72,7 @@ Se incluyen archivos de prueba en cada lenguaje, los cuales calculan los **50 pr
 
 ## Miembros del grupo  
 
-- **Santiago Hoyos**  
-- **Jesús Cabrera**  
+- Santiago Hoyos 
+- Jesús Cabrera  
 
 
