@@ -45,12 +45,34 @@ Tiempo de ejecución: 40.926 ms
 --------------------------------
 ```
 
-## Archivos de Prueba
-Se incluyen archivos de prueba en cada lenguaje:
-- `sample.py`
-- `sample.java`
-- `sample.cpp`
-- `sample.cc`
-- `sample.js`
-- `sample.rb`
+## Archivos de Prueba  
+
+Se incluyen archivos de prueba en cada lenguaje, los cuales calculan los **50 primeros términos de la serie de Fibonacci**:  
+
+- `sample.py`  
+- `sample.java`  
+- `sample.cpp`  
+- `sample.cc`  
+- `sample.js`  
+- `sample.rb`  
+
+
+## **Consideraciones Especiales**  
+
+- Si se va a ejecutar un programa en **Java**, y este contiene una **clase pública**, el nombre de la clase debe coincidir exactamente con el nombre del archivo.  
+  - **Ejemplo:** Si el archivo se llama `Main.java`, la clase pública dentro del archivo debe declararse como:  
+
+    ```java
+    public class Main {
+        public static void main(String[] args) {
+            System.out.println("Hola, mundo!");
+        }
+    }
+    ```
+
+## Miembros  
+
+- **[SantiaGO Hoyos]**  
+- **[Jesús Cabrera]**  
+
 

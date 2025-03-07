@@ -50,7 +50,7 @@ if [[ $? -ne 0 ]]; then
     exit 1
 fi
 
-# Descarga la imagen 
+# Descarga la imagen
 echo "Preparando entorno..."
 docker pull "$IMAGE" > /dev/null 2>&1
 if [[ $? -ne 0 ]]; then
@@ -62,6 +62,9 @@ fi
 echo "Ejecutando el programa en un contenedor Docker..."
 OUTPUT=$(docker run --rm -v "${WORKDIR}:/code" -w /code "$IMAGE" bash -c "START=\$(date +%s%6N); $COMMAND; EXITCODE=\$?; END=\$(date +%s%6N); TOTAL_TIME=\$((END - START)); MILI=\$((TOTAL_TIME / 1000)); MICRO=\$((TOTAL_TIME % 1000)); echo \"Tiempo de ejecución: \$MILI.\$MICRO ms\"; exit \$EXITCODE" 2>&1)
 
+# Captura el código de salida del contenedor
+EXITCODE=$?
+
 # Verifica si hubo errores en la ejecución
 if [[ $EXITCODE -ne 0 ]]; then
     echo "El programa dentro del contenedor falló con código de salida $EXITCODE."
@@ -71,6 +74,3 @@ else
   echo "$OUTPUT"
   echo "----------------------------"
 fi
-
-
-
